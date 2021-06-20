@@ -5,21 +5,27 @@
 }
 
 h1{
-    font-size: 50px;
+    font-size: 45px;
+    
 }
+
 .name{
+    
+
     text-transform:uppercase;
     color:orange;
 }
 .h3{
-    text-transform: capitalize;
+    font-size: 18px;
+    text-transform:uppercase;
     color: rgb(33, 189, 59);
 }
     
 
 .half-width{
+    
     width: 40%;
-    float:  left;
+    float:  right;
     margin-left: 5%;
     padding: 2%;
 }
@@ -30,11 +36,17 @@ h1{
 
 .top-banner{
     border: 1px rgb(71, 8, 8);
-    background-color: rebeccapurple;
+    
     background-image: url("img/top-banner.png");
     background-repeat: no-repeat;
 }
 
 section{
     height: 500px;
+}
+
+.dream-area{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right  ;
 }
